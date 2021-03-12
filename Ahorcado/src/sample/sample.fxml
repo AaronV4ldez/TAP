@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="padre" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="129.0" layoutY="14.0" prefHeight="36.0" prefWidth="243.0" text="A H O R C A D O" AnchorPane.bottomAnchor="465.0" AnchorPane.leftAnchor="129.0" AnchorPane.rightAnchor="128.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font name="Lucida Sans Unicode" size="30.0" />
+         </font>
+      </Label>
+      <HBox fx:id="contenedor" alignment="CENTER" layoutX="14.0" layoutY="79.0" prefHeight="48.0" prefWidth="474.0" spacing="5.0" AnchorPane.bottomAnchor="340.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="108.0" />
+   </children>
+</AnchorPane>
