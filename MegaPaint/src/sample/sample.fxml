@@ -62,7 +62,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <ColorPicker fx:id="colorPicker" />
+            <ColorPicker fx:id="colorPicker" onAction="#cambiarColor" />
             <ComboBox prefWidth="150.0" />
          </children>
          <padding>
