@@ -47,7 +47,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="40.0" styleClass="btnBorrador" stylesheets="@estilos.css">
+            <Button mnemonicParsing="false" onAction="#borrar" prefHeight="37.0" prefWidth="40.0" styleClass="btnBorrador" stylesheets="@estilos.css">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -62,7 +62,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <ColorPicker />
+            <ColorPicker fx:id="colorPicker" />
             <ComboBox prefWidth="150.0" />
          </children>
          <padding>
